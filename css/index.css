@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  outline: none;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1px;
+  position: relative;
+}
+
+main {
+  overflow: hidden;
+}
+
+@-webkit-keyframes header-animation {
+  0% {
+    top: -100px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+@keyframes header-animation {
+  0% {
+    top: -100px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+header {
+  overflow: hidden;
+  padding: 10px 0px;
+}
+header .navbar-brand {
+  font-size: 30px;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+header .nav-item.active .nav-link {
+  color: #66CFC0 !important;
+}
+header .nav-item .nav-link {
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: rgba(255, 255, 255, 0.3);
+}
+header.scrolled {
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  width: 100%;
+  background: #fff;
+  border-width: 0 0 5px;
+  border-style: solid;
+  border-image: linear-gradient(to right, #66CFC0, #66CFC0, #3F92D6) 100% 1;
+  border-image-slice: 1;
+  padding: 0px;
+  -webkit-animation: header-animation 0.3s forwards;
+  animation: header-animation 0.3s forwards;
+}
+header.scrolled .navbar {
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+}
+header.scrolled .navbar-brand {
+  font-size: 22px;
+}
+header.scrolled .navbar-brand img {
+  height: 50px;
+}
+
+.wave-border {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+footer {
+  overflow: hidden;
+  background: linear-gradient(to right, #66CFC0, #3F92D6);
+}
+
+/*# sourceMappingURL=index.css.map */
