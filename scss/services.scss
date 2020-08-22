@@ -1,0 +1,59 @@
+@import "./index.scss";
+
+.services-container {
+    .service-item {
+        box-shadow: 0px 5px 20px rgba(#000, 0.2);
+        border-radius: 10px;
+        position: relative;
+        height: 100%;
+
+        .service-icon {
+
+            img {
+                height: 250px;
+                width: 250px;
+                object-fit: cover;
+                object-position: center;
+            }
+        }
+
+        .service-title {
+            font-weight: 700;
+            color: $color-accent;
+            font-size: 20px;
+            letter-spacing: 2px;
+        }
+
+        .service-description {
+            font-size: 14px;
+            letter-spacing: 1px;
+            line-height: 1.6;
+            color: rgba(#000, .7);
+        }
+
+        .service-button {
+            position: absolute;
+            width: 100%;
+            left: 0;
+            bottom: -25px;
+
+            .btn {
+                background: linear-gradient(to right, $color-accent, $color-secondary);
+                border: none;
+                color: #fff;
+                padding: 15px 35px;
+                font-weight: 600;
+                box-shadow: 0px 0px 10px 0px rgba(#000, .5);
+
+                span {
+                    font-size: 14px;
+                    letter-spacing: 3px;
+                }
+
+                svg {
+                    margin-left: 5px;
+                }
+            }
+        }
+    }
+}

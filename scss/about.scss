@@ -1,0 +1,78 @@
+@import "./index.scss";
+
+.about-container {
+    .row {
+        box-shadow: 0px 5px 20px rgba(#000, 0.2);
+    }
+}
+
+.about-title {
+    font-family: 'Caviar Dreams Bold', sans-serif;
+    font-size: 35px;
+    letter-spacing: 2px;
+    width: 100%;
+    font-weight: 700;
+    color: $color-accent;
+}
+
+.container-title {
+    font-family: 'Caviar Dreams Bold', sans-serif;
+    font-size: 35px;
+    letter-spacing: 2px;
+    width: 100%;
+    font-weight: 700;
+    color: #fff;
+    background: linear-gradient(to right, $color-accent, $color-secondary);
+}
+
+.testimonials-container {
+
+    .container {
+        box-shadow: 0px 5px 20px rgba(#000, 0.2);
+    }
+
+    .carousel {
+        padding-bottom: 60px;
+    }
+
+    .testimonial-item {
+        border-radius: 20px;
+
+        img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            object-position: center;
+        }
+
+        .testimonial-title {
+            font-size: 25px;
+            padding-top: 10px;
+            padding-bottom: 5px;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+
+        .testimonial-subtitle {
+            font-size: 14px;
+            letter-spacing: 1px;
+        }
+
+        hr {
+            background: $color-accent;
+            width: 5%;
+            margin: 20px auto;
+        }
+
+        .testimonial-content {
+            display: flex;
+            justify-content: center;
+
+            span {
+                width: 800px;
+                max-width: 100%;
+            }
+        }
+    }
+}

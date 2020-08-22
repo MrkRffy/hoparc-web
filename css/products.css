@@ -91,4 +91,50 @@ footer {
   background: linear-gradient(to right, #66CFC0, #3F92D6);
 }
 
-/*# sourceMappingURL=index.css.map */
+.products-container .product-item {
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  position: relative;
+  height: 100%;
+}
+.products-container .product-item .product-icon img {
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+  object-position: center;
+}
+.products-container .product-item .product-title {
+  font-weight: 700;
+  color: #66CFC0;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+.products-container .product-item .product-description {
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 1.6;
+  color: rgba(0, 0, 0, 0.7);
+}
+.products-container .product-item .product-button {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: -25px;
+}
+.products-container .product-item .product-button .btn {
+  background: linear-gradient(to right, #66CFC0, #3F92D6);
+  border: none;
+  color: #fff;
+  padding: 15px 35px;
+  font-weight: 600;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+.products-container .product-item .product-button .btn span {
+  font-size: 14px;
+  letter-spacing: 3px;
+}
+.products-container .product-item .product-button .btn svg {
+  margin-left: 5px;
+}
+
+/*# sourceMappingURL=products.css.map */
