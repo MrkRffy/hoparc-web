@@ -159,4 +159,48 @@ footer {
   border: none;
 }
 
+.clinic-hour-container {
+  background: #f7f7f7;
+}
+.clinic-hour-container .schedule-content {
+  text-align: center;
+}
+.clinic-hour-container .schedule-content .schedule-item-container {
+  max-width: 100%;
+}
+.clinic-hour-container .schedule-content .schedule-item-container .schedule-item {
+  background: #fff;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  margin: 0px;
+  margin-bottom: 20px;
+  width: 600px;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.clinic-hour-container .schedule-content .schedule-item-container .schedule-item .schedule-name {
+  padding: 20px 0px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 14px;
+  background: linear-gradient(to right, #66CFC0, #3F92D6);
+  color: #fff;
+}
+.clinic-hour-container .schedule-content .schedule-item-container .schedule-item .schedule-value {
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 18px;
+  color: #3F92D6;
+}
+.clinic-hour-container .schedule-content .schedule-item-container .schedule-item.danger .schedule-value {
+  color: #DA3F32;
+}
+.clinic-hour-container .schedule-content .schedule-item-container .schedule-item:nth-child(even) > .schedule-value {
+  color: #66CFC0;
+}
+
 /*# sourceMappingURL=contact.css.map */
